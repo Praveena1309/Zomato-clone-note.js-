@@ -16,7 +16,7 @@ const app = express();
 
 const Port = process.env.PORT || 5500;
 const hostname = "localhost";
-const localDbUrl = 'mongodb+srv://praveena:9842262903exO@cluster0.wvkebdx.mongodb.net/zomato?retryWrites=true&w=majority';   // Local Mongo DB url 
+const localDbUrl = '****************************';   // Local Mongo DB url 
 const corsOption ={
     origin:'http://localhost:3000',
     credentials: true,
